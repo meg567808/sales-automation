@@ -49,6 +49,17 @@ email: recipient email
 http://localhost:5000/api-docs
 
 
+## Security Measures
+
+The API includes several protections:
+
+- File upload limited to 5MB to prevent abuse
+- Only CSV files accepted via Multer validation
+- Sensitive credentials stored in environment variables
+- `.env` excluded via `.gitignore`
+- API containerized to isolate runtime environment
+
+
 
 
 ```mermaid
