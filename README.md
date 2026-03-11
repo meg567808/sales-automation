@@ -60,6 +60,14 @@ The API includes several protections:
 - API containerized to isolate runtime environment
 
 
+## API Documentation
+
+Swagger documentation is available at:
+https://sales-automation.onrender.com/api-docs
+
+Note: On the free Render tier the server may take ~30–60 seconds to wake up after inactivity.
+
+
 
 
 ```mermaid
