@@ -8,7 +8,9 @@ const { swaggerUi, specs } = require("./swagger");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 
 /* Swagger docs */
