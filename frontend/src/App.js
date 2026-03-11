@@ -22,7 +22,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "http://localhost:5000/api/upload",
+        "https://sales-automation-0a3r.onrender.com",
         formData,
         {
           headers: {
