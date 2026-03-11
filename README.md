@@ -47,3 +47,16 @@ email: recipient email
 ## Swagger Docs
 
 http://localhost:5000/api-docs
+
+
+
+
+```mermaid
+flowchart TD
+
+A[React Frontend] --> B[Express Backend API]
+B --> C[CSV Parser Service]
+C --> D[Gemini AI API]
+D --> E[Generate Sales Insights]
+E --> F[Email Service - Nodemailer]
+F --> G[Send Summary Email]
